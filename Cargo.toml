@@ -8,6 +8,7 @@ async-graphql = "7.0.17"
 async-graphql-axum = "7.0.17"
 axum = "0.8.7"
 dotenv = { version = "0.15.0", features = ["clap"] }
+graphql_client = { version = "0.15.0", features = ["reqwest"] }
 ndarray = "0.17.1"
 smartcore = { version = "0.4.8", features = ["ndarray-bindings"] }
 sql = "0.4.3"
