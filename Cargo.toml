@@ -1,0 +1,14 @@
+[package]
+name = "varql"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+async-graphql = "7.0.17"
+async-graphql-axum = "7.0.17"
+axum = "0.8.7"
+dotenv = { version = "0.15.0", features = ["clap"] }
+ndarray = "0.17.1"
+smartcore = { version = "0.4.8", features = ["ndarray-bindings"] }
+sql = "0.4.3"
+tokio = { version = "1.48.0", features = ["full"] }
